@@ -4,22 +4,24 @@ body{
   background: linear-gradient( #808B96 , black);
   color: white;
 }
+header{
+  height: 60px;
+}
 header .logo{
-  height: 140px;
+  height: 100%;
 }
 .logo img{
   width: 20%;
   height: 100%;
 }
 .login-box{
-  height: 920px;
-
+  height: 420px;
 }
 .login-box-titulo{
   display: flex;
   justify-content: center;
   margin:0 10% 0 10%;
-  font-size: 30px;
+  font-size: 10px;
 }
 .login-box-input{
   width:90%;
@@ -27,61 +29,61 @@ header .logo{
 }
 .login-box-input input{
   width: 100%;
-  height: 70px;
+  height: 30px;
   background-color: inherit;
   border: none;
-  font-size: 35px;
+  font-size: 15px;
 }
 .login-box-button {
   margin: 5% 5% 0 5%;
-  height: 100px;
+  height: 35px;
 }
 .login-box-button button{
   width: 100%;
   height: 100%;
-  font-size: 35px;
+  font-size: 15px;
   background-color:#808B96 ;
   color: white;
   border-radius: 50px;;
 }
 .login-box-password{
   margin: 5% 5% 0 5%;
-  height: 50px;
+  height: 20px;
+  width: 90%;
   display: flex;
 }
 .login-box-password input{
-  height: 30px;
+  height: 10px;
 }
 .login-box-password label{
-  font-size: 25px;
+  font-size: 12px;
   margin-left: 1.5%;
 }
 .login-box-password a{
-  font-size: 25px;
-  margin-left: 42.5%;
+  font-size: 11px;
   color: white;
+  margin-left: 22.5%;
 }
 .login-box-acounts{
-  margin: 5% 5% 0 5%;
-  height: 300px;
-
+  margin: 10% 5% 0 5%;
+  height:150px;
 }
 .login-box-acounts img{
   width:5%;
+  height: 18px;
   margin-right: 3.5%;
 }
 .login-box-acounts label{
-  font-size: 25px;
-  height: 30px;
-  margin-top: 1%;
+  font-size: 12.5px;
+  height: 15px;
 }
 .login-box-acount1 {
-  height: 50px;
+  height:30px;
   display: flex;
   justify-content: center;
 }
 .login-box-acount2 {
-  height: 50px;
+  height: 30px;
   margin-top: 6%;
   display: flex;
   justify-content: center;
@@ -95,13 +97,96 @@ header .logo{
   margin-top: 0;
 }
 .login-box-newAcount a{
-  font-size: 25px;
+  font-size: 12.5px;
   color: white;
   margin-left: 1%;
 }
 footer{
+  margin-top: 17%;
   background-color: #34495E ;
-  height: 150px;
+  height: 100px;
   text-align: center;
-  font-size: 25px;
+}
+.footer{
+  height: 100%;
+}
+.footer p{
+  margin-top: 7%;
+  font-size: 12px;
+}
+@media only screen and (min-width: 780px){
+  header{º
+    height: 90px;
+  }
+  .logo img{
+    width: 8%;
+    height: 100%;
+  }
+  .login-box{
+    margin-top: 2.5%;
+    margin-left: 32.5%;
+    width: 30%;
+    height: 520px;
+    border: 5px rgb(133, 146, 158 ) solid;
+    background: linear-gradient( #808B96 , black);
+    border-radius: 10px;
+  }
+  .login-box-titulo{
+    display: flex;
+    justify-content: center;
+    margin:15% 10% 0 10%;
+    font-size: 10px;
+  }
+  .login-box-input{
+    width:75%;
+    margin: auto;
+  }
+  .login-box-input input{
+    width: 100%;
+    height: 30px;
+    background-color: inherit;
+    border: none;
+    font-size: 15px;
+  }
+  .login-box-button {
+    margin: 5% 12.5% 0 12.5%;
+    height: 40px;
+  }
+  .login-box-button button{
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    background-color:#808B96 ;
+    color: white;
+    border-radius: 50px;;
+  }
+  .login-box-password{
+    margin: 5% 5% 0 12.5%;
+    height: 20px;
+    width: 75%;
+    display: flex;
+  }
+  .login-box-password label{
+    font-size: 11px;
+  }
+  .login-box-password a{
+    font-size: 11px;
+    color: white;
+    margin-left: 22%;
+  }
+  footer{
+    margin-top:0;
+    background-color:black;
+    height: 70px;
+  }
+  .footer{
+    height: 100%;
+    justify-content: center;
+    display: flex;
+  }
+  .footer p{
+    margin-top:2%;
+    margin-right:2%;
+    font-size: 15px;
+  }
 }
